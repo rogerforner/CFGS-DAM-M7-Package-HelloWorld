@@ -1,0 +1,16 @@
+{
+    "name": "rogerforner/hello-world-package",
+    "description": "A hello world package for dummies :3",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roger Forner Fabre",
+            "email": "rogerforne@iesebre.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"rogerforner\\": "src/"}
+    }
+}
